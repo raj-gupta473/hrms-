@@ -304,7 +304,7 @@ const Posts = ({user}) => {
             <p className="text-sm text-gray-500">{CURRENT_USER.role}</p>
             <div className="mt-4 text-sm text-gray-600 space-y-1">
               <p>
-                <strong>1,284</strong> connections
+                <strong>1,284</strong> connections 
               </p>
               <p>
                 <strong>258</strong> followers

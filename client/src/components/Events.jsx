@@ -112,12 +112,12 @@ const Events = () => {
   // Function to fetch events from database
   const fetchEventsFromDatabase = async () => {
     try {
-      console.log("🔄 Fetching events from database...");
+      console.log(" Fetching events from database...");
       const response = await fetch("http://localhost:5000/api/events");
-      console.log("📡 Response status:", response.status);
+      console.log(" Response status:", response.status);
 
       const result = await response.json();
-      console.log("📊 API Response:", result);
+      console.log(" API Response:", result);
 
       if (result.success) {
         if (result.data.length > 0) {
